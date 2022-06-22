@@ -21,8 +21,6 @@ namespace LetsInvest
 
         private Cliente cliente = null;
 
-        private List<Corretora> corretoras = new List<Corretora>();
-
         #endregion Propripedades
 
         #region Construtor
@@ -53,40 +51,96 @@ namespace LetsInvest
 
         private void txtCliente_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            try
             {
-                btnClienteEnviar_Click(null, EventArgs.Empty);
+                if (e.KeyCode == Keys.Enter)
+                {
+                    btnClienteEnviar_Click(null, EventArgs.Empty);
+                }
+            }
+
+            catch (Exception ex)
+            {
+                MostrarErro(ex);
             }
         }
 
         private void btnProximaQuestao_Click(object sender, EventArgs e)
         {
-            MostrarProximaQuestao();
+            try
+            {
+                MostrarProximaQuestao();
+            }
+
+            catch (Exception ex)
+            {
+                MostrarErro(ex);
+            }
         }
 
         private void btnQuestaoAnterior_Click(object sender, EventArgs e)
         {
-            MostrarQuestaoAnterior();
+            try
+            {
+                MostrarQuestaoAnterior();
+            }
+
+            catch (Exception ex)
+            {
+                MostrarErro(ex);
+            }
         }
 
         private void rdnRespostaA_CheckedChanged(object sender, EventArgs e)
         {
-            AtualizarRespostaQuestaoAtual();
+            try
+            {
+                AtualizarRespostaQuestaoAtual();
+            }
+
+            catch (Exception ex)
+            {
+                MostrarErro(ex);
+            }
         }
 
         private void rdnRespostaB_CheckedChanged(object sender, EventArgs e)
         {
-            AtualizarRespostaQuestaoAtual();
+            try
+            {
+                AtualizarRespostaQuestaoAtual();
+            }
+
+            catch (Exception ex)
+            {
+                MostrarErro(ex);
+            }
         }
 
         private void rdnRespostaC_CheckedChanged(object sender, EventArgs e)
         {
-            AtualizarRespostaQuestaoAtual();
+            try
+            {
+                AtualizarRespostaQuestaoAtual();
+            }
+
+            catch (Exception ex)
+            {
+                MostrarErro(ex);
+            }
         }
 
         private void btnReenviarEmail_Click(object sender, EventArgs e)
         {
-            Task.Run(() => Email.EnviarEmail(cliente));
+            try
+            {
+                Task.Run(() => Email.EnviarEmail(cliente));
+            }
+
+            catch (Exception ex)
+            {
+                MostrarErro(ex);
+            }
         }
 
         #endregion Eventos
