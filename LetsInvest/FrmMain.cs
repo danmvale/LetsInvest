@@ -96,11 +96,6 @@ namespace LetsInvest
         private void Iniciar()
         {
             CarregarQuestionario();
-
-            txtClienteNome.Text = "Daniel Mendes Vale de Sá";
-            txtClienteCPF.Text = "47579134861";
-            txtClienteDtNascimento.Text = "23/01/1999";
-            txtClienteEmail.Text = "dan.mvale@gmail.com";
         }
 
         private void IniciarCliente()
