@@ -1,0 +1,11 @@
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\bin\Release\LetsInvest.exe.config
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\bin\Release\LetsInvest.exe
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\bin\Release\LetsInvest.pdb
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Release\LetsInvest.csproj.AssemblyReference.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Release\LetsInvest.csproj.SuggestedBindingRedirects.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Release\LetsInvest.FrmMain.resources
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Release\LetsInvest.Properties.Resources.resources
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Release\LetsInvest.csproj.GenerateResource.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Release\LetsInvest.csproj.CoreCompileInputs.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Release\LetsInvest.exe
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Release\LetsInvest.pdb

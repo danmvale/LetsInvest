@@ -1,0 +1,16 @@
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\bin\Debug\LetsInvest.exe.config
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\bin\Debug\LetsInvest.exe
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\bin\Debug\LetsInvest.pdb
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.csproj.AssemblyReference.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.csproj.SuggestedBindingRedirects.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.FrmMain.resources
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.Properties.Resources.resources
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.csproj.GenerateResource.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.csproj.CoreCompileInputs.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.exe
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.pdb
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\bin\Debug\LetsInvest.Business.dll
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\bin\Debug\LetsInvest.Business.pdb
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.csproj.CopyComplete
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.Controls.UcInvestimento.resources
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest\obj\Debug\LetsInvest.FrmSimulacaoInvestimento.resources

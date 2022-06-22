@@ -1,0 +1,6 @@
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest.Business\bin\Debug\LetsInvest.Business.dll
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest.Business\bin\Debug\LetsInvest.Business.pdb
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest.Business\obj\Debug\LetsInvest.Business.csproj.AssemblyReference.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest.Business\obj\Debug\LetsInvest.Business.csproj.CoreCompileInputs.cache
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest.Business\obj\Debug\LetsInvest.Business.dll
+D:\Lets Code\Web Full Stack\2 - Programação Orientada a Objetos I\ProjetoFinal\LetsInvest\LetsInvest.Business\obj\Debug\LetsInvest.Business.pdb

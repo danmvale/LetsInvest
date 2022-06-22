@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsInvest", "LetsInvest\LetsInvest.csproj", "{6629241C-5299-4FCD-AB79-5F821A1E81EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsInvest.Business", "LetsInvest.Business\LetsInvest.Business.csproj", "{A909C062-A8EA-4BFD-9E33-F46892574626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6629241C-5299-4FCD-AB79-5F821A1E81EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6629241C-5299-4FCD-AB79-5F821A1E81EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6629241C-5299-4FCD-AB79-5F821A1E81EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6629241C-5299-4FCD-AB79-5F821A1E81EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A909C062-A8EA-4BFD-9E33-F46892574626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A909C062-A8EA-4BFD-9E33-F46892574626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A909C062-A8EA-4BFD-9E33-F46892574626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A909C062-A8EA-4BFD-9E33-F46892574626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {165D7C81-16D0-4748-9BA9-12E08E7B8759}
+	EndGlobalSection
+EndGlobal
