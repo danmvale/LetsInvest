@@ -34,8 +34,8 @@ namespace LetsInvest.Business
             Carteira carteira = null;
 
             Corretora corretora1 = new Corretora("Caixa", 0.004m, "www.caixa.gov.br");
-            Corretora corretora2 = new Corretora("Inter Invest", 0m, "www.bancointer.com.br");
-            Corretora corretora3 = new Corretora("NuIvest", .003m, "www.nuinvest.com.br");
+            Corretora corretora2 = new Corretora("Safra", 0m, "www.safra.com.br/");
+            Corretora corretora3 = new Corretora("XP Investimentos", .003m, "www.xpi.com.br/");
             Corretora corretora4 = new Corretora("Coinext", .001m, "www.coinext.com.br");
 
             if (cliente.perfilInvestidor == EPerfilInvestidor.ULTRA_CONSERVADOR)
