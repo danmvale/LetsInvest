@@ -38,16 +38,16 @@
             this.label8 = new System.Windows.Forms.Label();
             this.lblRentabilidade = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnSimularInvestimento = new System.Windows.Forms.Button();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.lblPrazoMinimoRetirada = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.pnlCorretoras = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lblCorretoraModelo = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.lblPrecoCota = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pnlCorretoras = new System.Windows.Forms.Panel();
-            this.lblCorretoraModelo = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblPrazoMinimoRetirada = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnSimularInvestimento = new System.Windows.Forms.Button();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.ttp = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             this.pnlCorretoras.SuspendLayout();
@@ -122,15 +122,15 @@
             this.label8.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.label8.Location = new System.Drawing.Point(3, 141);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(113, 19);
+            this.label8.Size = new System.Drawing.Size(149, 19);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Rentabilidade:";
+            this.label8.Text = "Rentabilidade a. a.:";
             // 
             // lblRentabilidade
             // 
             this.lblRentabilidade.AutoSize = true;
             this.lblRentabilidade.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.lblRentabilidade.Location = new System.Drawing.Point(122, 141);
+            this.lblRentabilidade.Location = new System.Drawing.Point(158, 141);
             this.lblRentabilidade.Name = "lblRentabilidade";
             this.lblRentabilidade.Size = new System.Drawing.Size(48, 17);
             this.lblRentabilidade.TabIndex = 9;
@@ -161,6 +161,92 @@
             this.panel1.Size = new System.Drawing.Size(240, 329);
             this.panel1.TabIndex = 0;
             // 
+            // pnlCorretoras
+            // 
+            this.pnlCorretoras.AutoScroll = true;
+            this.pnlCorretoras.Controls.Add(this.label9);
+            this.pnlCorretoras.Controls.Add(this.lblCorretoraModelo);
+            this.pnlCorretoras.Location = new System.Drawing.Point(92, 220);
+            this.pnlCorretoras.Name = "pnlCorretoras";
+            this.pnlCorretoras.Size = new System.Drawing.Size(133, 47);
+            this.pnlCorretoras.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.SkyBlue;
+            this.label9.Location = new System.Drawing.Point(5, 23);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(84, 16);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Modal Mais";
+            this.label9.Click += new System.EventHandler(this.lblCorretora_Click);
+            // 
+            // lblCorretoraModelo
+            // 
+            this.lblCorretoraModelo.AutoSize = true;
+            this.lblCorretoraModelo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblCorretoraModelo.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCorretoraModelo.ForeColor = System.Drawing.Color.SkyBlue;
+            this.lblCorretoraModelo.Location = new System.Drawing.Point(5, 4);
+            this.lblCorretoraModelo.Name = "lblCorretoraModelo";
+            this.lblCorretoraModelo.Size = new System.Drawing.Size(84, 16);
+            this.lblCorretoraModelo.TabIndex = 20;
+            this.lblCorretoraModelo.Text = "Modal Mais";
+            this.lblCorretoraModelo.Click += new System.EventHandler(this.lblCorretora_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.label4.Location = new System.Drawing.Point(3, 219);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(83, 19);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Corretoras:";
+            // 
+            // lblPrecoCota
+            // 
+            this.lblPrecoCota.AutoSize = true;
+            this.lblPrecoCota.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.lblPrecoCota.Location = new System.Drawing.Point(100, 195);
+            this.lblPrecoCota.Name = "lblPrecoCota";
+            this.lblPrecoCota.Size = new System.Drawing.Size(100, 17);
+            this.lblPrecoCota.TabIndex = 15;
+            this.lblPrecoCota.Text = "R$ 100.000,00";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.label7.Location = new System.Drawing.Point(3, 193);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(91, 19);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Preço Cota:";
+            // 
+            // lblPrazoMinimoRetirada
+            // 
+            this.lblPrazoMinimoRetirada.AutoSize = true;
+            this.lblPrazoMinimoRetirada.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
+            this.lblPrazoMinimoRetirada.Location = new System.Drawing.Point(123, 169);
+            this.lblPrazoMinimoRetirada.Name = "lblPrazoMinimoRetirada";
+            this.lblPrazoMinimoRetirada.Size = new System.Drawing.Size(64, 17);
+            this.lblPrazoMinimoRetirada.TabIndex = 13;
+            this.lblPrazoMinimoRetirada.Text = "180 dias";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.label3.Location = new System.Drawing.Point(3, 167);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(114, 19);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Prazo Retirada:";
+            // 
             // btnSimularInvestimento
             // 
             this.btnSimularInvestimento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
@@ -189,92 +275,6 @@
             this.txtNome.TabIndex = 10;
             this.txtNome.Text = "CDB";
             this.txtNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lblPrazoMinimoRetirada
-            // 
-            this.lblPrazoMinimoRetirada.AutoSize = true;
-            this.lblPrazoMinimoRetirada.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.lblPrazoMinimoRetirada.Location = new System.Drawing.Point(123, 169);
-            this.lblPrazoMinimoRetirada.Name = "lblPrazoMinimoRetirada";
-            this.lblPrazoMinimoRetirada.Size = new System.Drawing.Size(64, 17);
-            this.lblPrazoMinimoRetirada.TabIndex = 13;
-            this.lblPrazoMinimoRetirada.Text = "180 dias";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.label3.Location = new System.Drawing.Point(3, 167);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 19);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Prazo Retirada:";
-            // 
-            // lblPrecoCota
-            // 
-            this.lblPrecoCota.AutoSize = true;
-            this.lblPrecoCota.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold);
-            this.lblPrecoCota.Location = new System.Drawing.Point(100, 195);
-            this.lblPrecoCota.Name = "lblPrecoCota";
-            this.lblPrecoCota.Size = new System.Drawing.Size(100, 17);
-            this.lblPrecoCota.TabIndex = 15;
-            this.lblPrecoCota.Text = "R$ 100.000,00";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.label7.Location = new System.Drawing.Point(3, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 19);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Preço Cota:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.label4.Location = new System.Drawing.Point(3, 219);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 19);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Corretoras:";
-            // 
-            // pnlCorretoras
-            // 
-            this.pnlCorretoras.AutoScroll = true;
-            this.pnlCorretoras.Controls.Add(this.label9);
-            this.pnlCorretoras.Controls.Add(this.lblCorretoraModelo);
-            this.pnlCorretoras.Location = new System.Drawing.Point(92, 220);
-            this.pnlCorretoras.Name = "pnlCorretoras";
-            this.pnlCorretoras.Size = new System.Drawing.Size(133, 47);
-            this.pnlCorretoras.TabIndex = 19;
-            // 
-            // lblCorretoraModelo
-            // 
-            this.lblCorretoraModelo.AutoSize = true;
-            this.lblCorretoraModelo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblCorretoraModelo.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCorretoraModelo.ForeColor = System.Drawing.Color.SkyBlue;
-            this.lblCorretoraModelo.Location = new System.Drawing.Point(5, 4);
-            this.lblCorretoraModelo.Name = "lblCorretoraModelo";
-            this.lblCorretoraModelo.Size = new System.Drawing.Size(84, 16);
-            this.lblCorretoraModelo.TabIndex = 20;
-            this.lblCorretoraModelo.Text = "Modal Mais";
-            this.lblCorretoraModelo.Click += new System.EventHandler(this.lblCorretora_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.SkyBlue;
-            this.label9.Location = new System.Drawing.Point(5, 23);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 16);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "Modal Mais";
-            this.label9.Click += new System.EventHandler(this.lblCorretora_Click);
             // 
             // UcInvestimento
             // 

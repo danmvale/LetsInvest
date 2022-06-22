@@ -143,7 +143,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.ClientSize = new System.Drawing.Size(343, 256);
+            this.ClientSize = new System.Drawing.Size(328, 256);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lblAvisoRendaVariavel);
             this.Controls.Add(this.label2);
@@ -157,6 +157,9 @@
             this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(344, 295);
+            this.MinimumSize = new System.Drawing.Size(344, 295);
             this.Name = "FrmSimulacaoInvestimento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Let\'s Invest | Simulação Investimento";
