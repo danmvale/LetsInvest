@@ -23,6 +23,7 @@ namespace LetsInvest.Business
         public override string ToString()
         {
             string info = "";
+
             foreach (var investimento in Investimentos)
                 info += investimento.ToString() + "\n";
 
@@ -67,8 +68,6 @@ namespace LetsInvest.Business
 
             else if (cliente.perfilInvestidor == EPerfilInvestidor.ARROJADO)
             {
-                decimal IPCA = 10.06m / 100m;
-
                 carteira = new Carteira("");
 
                 carteira.Investimentos.Add(new InvestimentoRendaVariavel("IBMB34", "Ações da International Business Machines (renda variável)", new List<Corretora> { corretora2, corretora3 }, ENivelRisco.ALTO, .0585m, 694.83m));
@@ -78,8 +77,6 @@ namespace LetsInvest.Business
 
             else if (cliente.perfilInvestidor == EPerfilInvestidor.ULTRA_ARROJADO)
             {
-                decimal IPCA = 10.06m / 100m;
-
                 carteira = new Carteira("");
 
                 carteira.Investimentos.Add(new InvestimentoRendaVariavel("MSFT34", "Ações da Microsoft (renda variável)", new List<Corretora> { corretora2, corretora3 }, ENivelRisco.ALTO, .0585m, 694.83m));
