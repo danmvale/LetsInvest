@@ -19,7 +19,7 @@ namespace LetsInvest.Business
 
         #endregion Constantes
 
-        public static async void EnviarEmail(Cliente cliente)
+        public static void EnviarEmail(Cliente cliente)
         {
             try
             {
