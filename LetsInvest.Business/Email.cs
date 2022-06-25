@@ -11,11 +11,11 @@ namespace LetsInvest.Business
     {
         #region Constantes
 
-        const string EMAIL = "letsinvest100@outlook.com";
-        const string NOME_DISPLAY = "Let's Invest";
-        const string SENHA = "!Letsinvest123";
-        const string SMTP = "smtp-mail.outlook.com";
-        const int PORTA_SMTP = 25;
+        private const string EMAIL = "letsinvest100@outlook.com";
+        private const string NOME_DISPLAY = "Let's Invest";
+        private const string SENHA = "!Letsinvest123";
+        private const string SMTP = "smtp-mail.outlook.com";
+        private const int PORTA_SMTP = 25;
 
         #endregion Constantes
 
